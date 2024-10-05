@@ -101,10 +101,10 @@ def baseline_correction(baseline_data, y_col=0, x_col=3, pol_order=2, numstd=0.7
     return baseline_data
 
 # Example usage
-# from RamanMap1_ProcessFile import process_file
-# from RamanMap2_SpikeRemoval import spike_removal
-# from RamanMap3_PCA import pca_noise_removal
-# from RamanMap4_Smooth import smooth_data
+# from ProcessFile import process_file
+# from SpikeRemoval import spike_removal
+# from PCA import pca_noise_removal
+# from Smooth import smooth_data
 # file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
 # processed_data = process_file(file)
 # processed_data = spike_removal(processed_data)
