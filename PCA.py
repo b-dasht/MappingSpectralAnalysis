@@ -115,8 +115,8 @@ def pca_noise_removal(denoising_data, pca_comp=None, pca_var=None, y_col=0, x_co
     return denoised_df
 
 # Example usage with pca_comp and pca_var
-# from RamanMap1_ProcessFile import process_file
-# from RamanMap2_SpikeRemoval import spike_removal
+# from ProcessFile import process_file
+# from SpikeRemoval import spike_removal
 # file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
 # processed_data = process_file(file)
 # processed_data = spike_removal(processed_data)
