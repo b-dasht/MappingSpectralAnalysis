@@ -11,7 +11,7 @@ from Spectra_Plots import plot_spectra
 from Spectra_Plots import plot_heatmap
 
 # Define the input files
-input_files = ['1', '2', '3'] # Enter the name of the files in the working directory to be processed and analysed. An example is provided.
+input_files = ['1.txt', '2.txt', '3.txt'] # Enter the name of the files in the working directory to be processed and analysed. An example is provided.
 
 for file in input_files:
     
