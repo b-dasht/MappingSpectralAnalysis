@@ -65,11 +65,11 @@ def crop_data(cropping_data, lower_bound, upper_bound, x_col=3, crop_fig=False):
     return cropped_df
 
 # Example usage
-# from RamanMap1_ProcessFile import process_file
-# from RamanMap2_SpikeRemoval import spike_removal
-# from RamanMap3_PCA import pca_noise_removal
-# from RamanMap4_Smooth import smooth_data
-# from RamanMap5_Baseline import baseline_correction
+# from ProcessFile import process_file
+# from SpikeRemoval import spike_removal
+# from PCA import pca_noise_removal
+# from Smooth import smooth_data
+# from Baseline import baseline_correction
 # file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
 # processed_data = process_file(file)
 # processed_data = spike_removal(processed_data)
