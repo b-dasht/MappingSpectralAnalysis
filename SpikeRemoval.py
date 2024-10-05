@@ -238,7 +238,7 @@ def spike_removal(spike_remove_data, y_col=0, x_col=3, pol_order=2, expand_windo
     return spike_remove_data
 
 # Example run
-# from RamanMap1_ProcessFile import process_file
+# from ProcessFile import process_file
 # file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
 # processed_data = process_file(file)
 # spikeless_data = spike_removal(processed_data, y_col=4, x_col=3, pol_order=2, overall_plot=True, individual_plots=True)
