@@ -11,7 +11,7 @@ from Spectra_Plots import plot_spectra
 from Spectra_Plots import plot_heatmap
 
 # Define the input files
-input_files = ['Pristine.txt','Desized.txt','ASPN.txt']
+input_files = [''] # Enter the name of the files in the working directory to be processed and analysed
 
 for file in input_files:
     
