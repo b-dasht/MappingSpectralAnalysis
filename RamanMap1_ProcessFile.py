@@ -81,10 +81,11 @@ def process_file(file_path, headers=True, col_names=[], zero_xy=False):
 
     return processed_data
 
-# Example run
-# file1 = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
-# file1 = "C:/Users/Administrator/Dropbox/Personal/PythonScripts/ASPN-raw.txt"
-# processed_data_1 = process_file(file1, headers=True, zero_xy=True)
-# file2 = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
-# file2 = "C:/Users/Administrator/Dropbox/Personal/PythonScripts/ASPN-raw.txt"
+# Example run with headers and relative x-y positioning
+# file1 = "" # Add file path here
+# processed_data_1 = process_file(file1, headers=True, zero_xy=True) 
+
+# Example run with pre-defined column names but without any headers or relative x-y positioning
+# file2 = "" # Add file path here
 # processed_data_2 = process_file(file2, headers=False, col_names=['X', 'Y', 'Wave', 'Intensity'], zero_xy=False)
+
