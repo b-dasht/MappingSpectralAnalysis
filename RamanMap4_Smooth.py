@@ -68,9 +68,9 @@ def smooth_data(smooth_data, y_col=0, x_col= 3, window_len=11, pol_order=1, smoo
 # from RamanMap1_ProcessFile import process_file
 # from RamanMap2_SpikeRemoval import spike_removal
 # from RamanMap3_PCA import pca_noise_removal
-# file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
-# file = "C:/Users/Administrator/Dropbox/Personal/PythonScripts/ASPN-raw.txt"
+# file = "" # Add file path here
 # processed_data = process_file(file)
 # processed_data = spike_removal(processed_data)
 # processed_data = pca_noise_removal(processed_data, pca_comp=6)
 # smoothed_data = smooth_data(processed_data, y_col=6, x_col=3, window_len=11, pol_order=1, smooth_fig=True)
+
