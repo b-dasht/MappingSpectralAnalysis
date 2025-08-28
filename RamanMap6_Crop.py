@@ -70,11 +70,11 @@ def crop_data(cropping_data, lower_bound, upper_bound, x_col=3, crop_fig=False):
 # from RamanMap3_PCA import pca_noise_removal
 # from RamanMap4_Smooth import smooth_data
 # from RamanMap5_Baseline import baseline_correction
-# file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
-# file = "C:/Users/Administrator/Dropbox/Personal/PythonScripts/ASPN-raw.txt"
+# file = "" # Add file path here
 # processed_data = process_file(file)
 # processed_data = spike_removal(processed_data)
 # processed_data = pca_noise_removal(processed_data, pca_comp=6)
 # processed_data = smooth_data(processed_data)
 # processed_data = baseline_correction(processed_data)
 # cropped_data = crop_data(processed_data, 800, 1800, x_col=3, crop_fig=True)
+
