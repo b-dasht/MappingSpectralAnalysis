@@ -23,4 +23,4 @@ This progressive fitting strategy is intended to make the analysis more precise,
 
 
 ## Toolbox Not Yet Fully Functional
-This toolbox is still being developed and is not fully functional. The curve fitting script is still under development.
+This toolbox is still being developed and is not fully functional in its current state. The final curve fitting script is still under development.
