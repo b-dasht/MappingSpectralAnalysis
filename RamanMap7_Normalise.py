@@ -107,8 +107,7 @@ def normalise_data(normalising_data, max_val=100, y_col=0, x_col=3, each_spectra
 # from RamanMap4_Smooth import smooth_data
 # from RamanMap5_Baseline import baseline_correction
 # from RamanMap6_Crop import crop_data
-# file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
-# file = "C:/Users/Administrator/Dropbox/Personal/PythonScripts/ASPN-raw.txt"
+# file = "" # Add file path here
 # processed_data = process_file(file)
 # processed_data = spike_removal(processed_data)
 # processed_data = pca_noise_removal(processed_data, pca_comp=6)
@@ -117,3 +116,4 @@ def normalise_data(normalising_data, max_val=100, y_col=0, x_col=3, each_spectra
 # processed_data = crop_data(processed_data, 800, 1800)
 # normalised_data1 = normalise_data(processed_data,100, y_col=0, each_spectra=True, x_col=3, normal_fig=True)
 # normalised_data2 = normalise_data(processed_data,100, y_col=0, each_spectra=False, x_col=3, normal_fig=True)
+
