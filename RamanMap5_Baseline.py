@@ -119,10 +119,10 @@ def baseline_correction(baseline_data, y_col=0, x_col=3, lam=3e7, p=0.02, num_it
 # from RamanMap2_SpikeRemoval import spike_removal
 # from RamanMap3_PCA import pca_noise_removal
 # from RamanMap4_Smooth import smooth_data
-# file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
-# file = "C:/Users/Administrator/Dropbox/Personal/PythonScripts/ASPN-raw.txt"
+# file = "" # Add file path here
 # processed_data = process_file(file)
 # processed_data = spike_removal(processed_data)
 # processed_data = pca_noise_removal(processed_data, pca_comp=6)
 # processed_data = smooth_data(processed_data)
 # baseline_corrected_data = baseline_correction(processed_data, y_col=0, x_col=3, lam=3e7, p=0.02, num_iter=20, baseline_fig=True)
+
