@@ -20,3 +20,7 @@ Although more stages can be used, a typical two-stage process looks like this:
 2. **Second Stage Fit** – Add additional user-defined components. Parameters from the first stage (e.g., position, intensity, width) are reused as starting points, but their allowed ranges are now restricted relative to the user’s chosen tolerance.
 
 This progressive fitting strategy is intended to make the analysis more precise, repeatable, and scalable, while remaining flexible for complex spectra.
+
+
+## Toolbox Not Yet Fully Functional
+This toolbox is still being developed and is not fully functional. The curve fitting script is still under development.
