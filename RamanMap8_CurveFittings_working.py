@@ -294,8 +294,7 @@ from RamanMap5_Baseline import baseline_correction
 from RamanMap6_Crop import crop_data
 from RamanMap7_Normalise import normalise_data
 
-file = "C:/Users/Benny/OneDrive - University of Birmingham/Machine Guides & Info/Raman/Raman - ID-IG Map/ASPN-raw.txt"
-# file = "C:/Users/Administrator/Dropbox/Personal/PythonScripts/ASPN-raw.txt"
+# file = "" # Add file path here
 processed_data = process_file(file, zero_xy=True)
 processed_data = spike_removal(processed_data)
 processed_data = pca_noise_removal(processed_data, pca_comp=6)
@@ -385,3 +384,4 @@ fitted_data, fitting_parameters, r_squared = fit_data(
     regions=regions,
     fitting_figs=True,
 )
+
